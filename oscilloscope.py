@@ -5,8 +5,6 @@ import motors
 def oscilloscope(offset, filename, numsamples=10000):
 	
 	capture = adc.Capture()
-	capture.start()
-
 	capture.oscilloscope_init(offset, numsamples)
 	capture.start()
 	
