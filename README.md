@@ -20,3 +20,8 @@ results.
 ## My results so far
 ...are disappointing as one encoder is unacceptably noisy.
 
+![ain0.png](https://raw.github.com/pgmmpk/qb_research/master/ain0.png)
+
+![ain2.png](https://raw.github.com/pgmmpk/qb_research/master/ain2.png)
+
+
