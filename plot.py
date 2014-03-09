@@ -37,7 +37,7 @@ if __name__ == '__main__':
     plt.title('AIN0 running backward')
     plt.ylim([0, 4096])
 
-    plt.show()
+    plt.subplots_adjust(hspace=0.5)
 
     ain2_atrest   = read_as_np_array('data_ain2_atrest.csv')
     ain2_forward  = read_as_np_array('data_ain2_forward.csv')
@@ -59,5 +59,7 @@ if __name__ == '__main__':
     plt.plot(ain2_backward)
     plt.title('AIN2 running backward')
     plt.ylim([0, 4096])
+
+    plt.subplots_adjust(hspace=0.5)
 
     plt.show()
