@@ -8,7 +8,7 @@ Researching why left wheel encoder does not work properly.
 Beaglebone Black computer with wheel encoders.
 
 1. `Adafruit_BBIO Python` library installed
-2. My `beaglebone_pru_adc` library installed
+2. My [`beaglebone_pru_adc`](https://github.com/pgmmpk/beaglebone_pru_adc) library installed
 
 ## Description
 
