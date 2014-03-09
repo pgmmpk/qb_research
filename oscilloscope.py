@@ -29,39 +29,39 @@ oscilloscope(adc.OFF_VALUES, 'data_ain0_atrest.csv')
 
 with motors.motor_setup(*motors.RIGHT_MOTOR_PINS) as run:
 	run(80) # run motor forward
-	time.sleep(0.5) # let it settle
+	time.sleep(2.0) # let it settle
 
 	print 'Capturing AIN0 at run (forward)'
 	oscilloscope(adc.OFF_VALUES, 'data_ain0_forward.csv')
 	
 	run(0)
-	time.sleep(0.5)
+	time.sleep(2.0)
 	
 	run(-80)
 	print 'Capturing AIN0 at run (reverse)'
 	oscilloscope(adc.OFF_VALUES, 'data_ain0_backward.csv')
 
 	run(0)
-	time.sleep(0.5)
+	time.sleep(2.0)
 	
 print 'Capturing AIN2 at rest'
 oscilloscope(adc.OFF_VALUES + 8, 'data_ain2_atrest.csv')
 
 with motors.motor_setup(*motors.LEFT_MOTOR_PINS) as run:
 	run(80) # run motor forward
-	time.sleep(0.5) # let it settle
+	time.sleep(2.0) # let it settle
 
 	print 'Capturing AIN2 at run (forward)'
 	oscilloscope(adc.OFF_VALUES+8, 'data_ain2_forward.csv')
 	
 	run(0)
-	time.sleep(0.5)
+	time.sleep(2.0)
 	
 	run(-80)
 	print 'Capturing AIN2 at run (reverse)'
 	oscilloscope(adc.OFF_VALUES+8, 'data_ain2_backward.csv')
 
 	run(0)
-	time.sleep(0.5)
+	time.sleep(2.0)
 
 print 'done'
