@@ -25,3 +25,11 @@ results.
 ![ain2.png](https://raw.github.com/pgmmpk/qb_research/master/ain2.png)
 
 
+## Happy Ending
+Found a mechanical problem that caused these noisy signals. Re-attached encoder wheels, aligned them
+properly, and this is what I get now:
+
+![good_ain0.png](https://raw.github.com/pgmmpk/qb_research/master/good_ain0.png)
+
+![good_ain2.png](https://raw.github.com/pgmmpk/qb_research/master/good_ain2.png)
+
