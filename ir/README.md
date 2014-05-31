@@ -6,6 +6,9 @@ AIN0 input expecting 0 digital reading from ADC). Result is:
 
 ![ir-10k-pulldown.png](https://raw.github.com/pgmmpk/qb_research/master/ir/ir-10k-pulldown.png)
 
+Noise is approximately 15% of the range (ADC has 12bit, which means range 0..4096, vertical scale
+is limited to 1600 here).
+
 When grounding AIN0 with 470Ohm the result is much cleaner:
 
 ![ir-470-pulldown.png](https://raw.github.com/pgmmpk/qb_research/master/ir/ir-470-pulldown.png)
