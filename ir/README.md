@@ -16,8 +16,9 @@ When grounding AIN0 with 470Ohm the result is much cleaner:
 Conclusion: 10kOhm is not enough to reliably pull down ADC input. Use 1kOhm or lower.
 
 I was not able to find official recommendations regarding the impedance of ADC and IR. Some sources suggest that 
-ADC input should be pulled down with 1kOhm or lower. This makes sense, given the pictures above.
+ADC input [should be pulled down with 1kOhm or lower](http://beaglebone.cameon.net/home/reading-the-analog-inputs-adc).
+This makes sense, given my findings above.
 
 In any case, I replaced all IR voltage divider circuits with 1kOhm + 470Ohm circuits. The voltage
 divider for the wheel encoder was replaced with 2kOhm + 2kOhm circuit. In case of wheel encoders it does
-not seem to make any difference for me. But IR signals are much cleaner now.
+not seem to make any difference for me. But IR signals are MUCH cleaner now.
